@@ -1,4 +1,4 @@
-# Hand-Code
+# Hand Code
 
 ## High-Level Description of Code Function and Hardware Used
 
