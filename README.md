@@ -2,7 +2,7 @@
 
 ## High-Level Description of Code Function and Hardware Used
 
-The script "processInput.py" takes input from a [MyoWare Muscle Sensor](https://www.adafruit.com/product/2699) through an [Analog to Digital Converter](https://www.adafruit.com/product/1085) (ADC) and sets [servos](https://www.sparkfun.com/products/9065) or [linear actuator](https://www.actuonix.com/PQ12-Micro-Linear-Actuators-s/1825.htm) according to the input recieved. The code runs on a Raspberry Pi (we are using a Pi 2).
+The script "processInput.py" takes input from a [MyoWare Muscle Sensor](https://www.adafruit.com/product/2699) through an [Analog to Digital Converter](https://www.adafruit.com/product/1085) (ADC) and sets [servos](https://www.sparkfun.com/products/9065) or [linear actuator](https://www.actuonix.com/PQ12-Micro-Linear-Actuators-s/1825.htm) according to the input recieved. The code runs on a Raspberry Pi (we are using a [Pi 2 Model B](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/))
 
 ## Nitty-Gritty Code Stuff
 
