@@ -27,23 +27,21 @@ while True:#execution loop
     #equations calculated at https://www.desmos.com/calculator/6ftevgrchz
     
     #servos
-    #need to fix equation
-    #outputValue = int(sorted(inputValues)[2]/62+355) #convert ADC input to servo output
+    #outputValue = int(sorted(inputValues)[2]/47+114) #convert ADC input to servo output
     '''if outputValue<200:
 	       outputValue = 200
 	   if outputValue>665:
 	       outputValue = 665'''
 	       
 	#linear actuators
-	#need to fix equation
-	#outputValue = int(sorted(inputValues)[2]/50+275) #same as above, but for linear actuator
+	#outputValue = int(sorted(inputValues)[2]/76+208) #same as above, but for linear actuator
     '''if outputValue<260:
 	       outputValue = 260
 	   if outputValue>550:
 	       outputValue = 550'''
 	       
 	#manual input: 
-    outputValue = int(input("Output Value: "))
+    #outputValue = int(input("Output Value: "))
 	
     print (outputValue)#display value servo has been set to
     print (inputValues[2])#display median of 5 most recent input values (used to calculate where the servo is set)
