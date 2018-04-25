@@ -27,4 +27,4 @@ A list of libraries that had to be installed on the pi before use can be found [
 
 ### Conversion from MyoWare input values to Servo and Linear Actuator output values
 
-Input values from the Myoware sensor's EMG electrodes, after going through the ADC, range from roughly 4000 (relaxed) to 26000 (tensed). We can experiment with the gain on the sensor and in the code to adjust this, although we have not done so yet. Two equations are used to convert this rnage of values into a corresponding range for servos (**need to find range and adjust equation**) and linear actuators (**need to find range and adjust equation**).
+Input values from the Myoware sensor's EMG electrodes, after going through the ADC, range from roughly 4000 (relaxed) to 26000 (tensed). We can experiment with the gain on the sensor and in the code to adjust this, although we have not done so yet. Two equations are used to convert this rnage of values into a corresponding range for servos (200-665) and linear actuators (260-550).
