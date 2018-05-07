@@ -17,9 +17,6 @@ A Google Drive folder with other files and documentation related to this project
 `from __future__ import division`
 Let the interpreter know to look for more modules.
 
-`import time`
-Not currently used in the program. This is used for debugging if we want to run code with preprogrammed input.
-
 `import Adafruit_ADS1x15`
 Library for the ADC
 
